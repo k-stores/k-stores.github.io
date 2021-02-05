@@ -1,28 +1,62 @@
 {
+  "name": "vuexy-html-bootstrap-admin-template",
+  "version": "1.1.0",
+  "description": "Vuexy admin is super flexible, powerful, clean & modern responsive bootstrap 4 HTML admin template with unlimited possibilities.",
+  "author": "PIXINVENT",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:pixinvent/vuesax-vuejs-admin-template.git"
+  },
+  "license": "Themeforest Standard Licenses",
   "private": true,
-  "scripts": {
-    "dev": "npm run development",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
-    "watch-poll": "npm run watch -- --watch-poll",
-    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  "homepage": "https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "async": "^3.1.0",
+    "bootstrap": "^4.5.3",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-w3c-html-validator": "^1.4.4",
+    "node-notifier": "^5.4.3",
+    "node-sass": "^5.0.0",
+    "through2": "^3.0.1"
   },
   "devDependencies": {
-    "axios": "^0.19",
-    "bootstrap": "^4.5.0",
-    "cross-env": "^5.2.1",
-    "jquery": "^3.2",
-    "laravel-mix": "^4.1.4",
-    "lodash": "^4.17.15",
-    "popper.js": "^1.12",
-    "resolve-url-loader": "^2.3.1",
-    "rtlcss": "^2.4.0",
-    "sass": "^1.22.12",
-    "sass-loader": "^7.3.1",
-    "vue": "^2.5.17",
-    "vue-template-compiler": "^2.6.10",
-    "webpack-cli": "^3.3.5"
-  }
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-multistream": "^0.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^1.0.0",
+    "gulp-rtlcss": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-terser": "^1.4.0",
+    "gulp-watch": "^5.0.1",
+    "merge-stream": "^2.0.0",
+    "minimist": "^1.2.0",
+    "pug": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
 }
