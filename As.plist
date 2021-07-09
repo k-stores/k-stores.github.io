@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>science.xnu.undecimus.3BKCWSZ3RK</string>
+				<string>science.xnu.undecimus</string>
 				<key>bundle-version</key>
 				<string>6.1.2</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>bạn!</string>
+				<string>Tải đê</string>
 			</dict>
 		</dict>
 	</array>
